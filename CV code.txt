@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Jahanzaib Khan</title>
+    <style>
+        :root {
+            --primary-color: #3366cc;
+            --background-color: #f5f5f5;
+            --text-color: #333;
+            --border-radius: 8px;
+            --spacing: 20px;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 850px;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: var(--spacing);
+            text-align: center;
+        }
+
+        .header-title h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .contact-info, .section {
+            padding: var(--spacing);
+        }
+
+        .contact-info p, .section p {
+            margin: 5px 0;
+        }
+
+        .section-title {
+            background: var(--primary-color);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.2em;
+            border-radius: var(--border-radius) var(--border-radius) 0 0;
+        }
+
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing);
+        }
+
+        .skill-box, .experience-entry {
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            background: #fff;
+        }
+
+        .experience-entry {
+            padding: 20px;
+        }
+
+        footer {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="header-title">
+                <h1>Jahanzaib Khan</h1>
+                <p>Customer Support Specialist</p>
+            </div>
+        </header>
+
+        <div class="contact-info">
+            <p><strong>Address:</strong> House No. 9, Raja Ram Street 24, Gawalmandi, Lahore, Pakistan</p>
+            <p><strong>Phone:</strong> 0318-8801020</p>
+            <p><strong>Email:</strong> jahanzaibkhan000777@gmail.com</p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jahanzaib-khan-342972278">linkedin.com/in/jahanzaib-khan-342972278</a></p>
+        </div>
+
+        <section>
+            <div class="section-title">Professional Summary</div>
+            <div class="section">
+                <p>Highly skilled Customer Support Specialist with 2+ years of experience in delivering exceptional support through calls, live chats, and emails. Proven ability to manage high workloads, streamline operations, and resolve complex queries to drive customer satisfaction. Proficient in CRM management, customer retention.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Key Skills</div>
+            <div class="section skill-grid">
+                <div class="skill-box">Customer Success & Retention</div>
+                <div class="skill-box">CRM Management</div>
+                <div class="skill-box">Call, Live Chat & Email Support</div>
+                <div class="skill-box">Communication & Relationship</div>
+                <div class="skill-box">Quick Learner & Problem Solver</div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Technical Skills</div>
+            <div class="section skill-grid">
+                <div class="skill-box">Excel VBA (Intermediate)</div>
+                <div class="skill-box">App Script (Google Sheets)</div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Typing Speed</div>
+            <div class="section">
+                <p>Typing Speed: 56 WPM | Accuracy: 98%</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Experience</div>
+            <div class="section">
+                <div class="experience-entry">
+                    <strong>Customer Support Specialist</strong> at <strong>SA Aligners</strong> (Mar 2024 - Feb 2025)<br>
+                    <ul>
+                        <li>Manage CRM systems, customer data, and treatment tracking for orthodontic patients.</li>
+                        <li>Maintain constant communication with customers regarding their treatment plans.</li>
+                        <li>Coordinate shipments for new orders and schedule video sessions for patients.</li>
+                        <li>Ensure smooth operations and provide excellent customer support throughout the patient journey.</li>
+                    </ul>
+                </div>
+                <div class="experience-entry">
+                    <strong>Customer Support Executive</strong> at <strong>Plan Lab Solutions</strong> (Feb 2023 - Jan 2024)<br>
+                    <ul>
+                        <li>Handled inbound and outbound calls, emails, and live chat support for Shopify stores.</li>
+                        <li>Assisted customers with product inquiries, order tracking, and issue resolution.</li>
+                        <li>Collaborated with team members to meet project deadlines and improve customer satisfaction.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Education</div>
+            <div class="section">
+                <p>Matriculation in Science - Universal English Public High School (2019 - 2021)</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Additional Information</div>
+            <div class="section">
+                <p>Fluent in English, Urdu & Pashto.</p>
+                <p>Willing to relocate or work remotely.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Jahanzaib Khan | All Rights Reserved</p>
+        </footer>
+    </div>
+
+</body>
+</html>
